@@ -1,0 +1,70 @@
+a{
+    color: brown;
+    text-decoration: none;
+  }
+ol{
+    background-color: white
+  }
+  body{
+    background-color: antiquewhite;
+    background-size: cover;
+  }
+#mango{
+    color: yellow;
+  }
+#apple{
+    color: red;
+  }
+#grape{
+    color: violet;
+  }
+#pine{
+    color: orange;
+  }
+#image-1{
+    width: 50%;
+    height: auto;
+  }
+#one{
+    color: gray;
+    text-decoration:line-through;
+    background-color: azure;
+    text-align: right;
+    transition: 1s;
+    
+  
+  }
+  #one :hover{
+    color: yellow;
+    background-color: aquamarine;
+    transition: 2ms;
+    
+  }
+#two{
+    color: brown;
+    text-decoration: solid;
+    background-color: lightblue;
+    text-align: end;
+  }
+  #three{
+    color: rgb(0, 0, 0);
+    background-color: lightcoral;
+    text-align: start;
+    cursor:all-scroll;
+  }
+.grp-1{
+  background-color: rosybrown;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 5px double;
+  border-color: yellowgreen;
+
+}
+ul{
+  list-style: decimal;
+  
+
+  
+}
+.table{
+  border: 1px solid;
+}
