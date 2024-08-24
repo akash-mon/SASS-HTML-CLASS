@@ -1,0 +1,12 @@
+$Heading:rgb(58, 155, 43);
+$platform:lightblue;
+
+.parent{
+    h1{
+        color: $platform;
+    }
+    label{
+        color: $Heading;
+    }
+    
+}

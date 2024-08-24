@@ -1,0 +1,17 @@
+.grp1 h1 {
+  color: #76937e;
+  font-size: 80px;
+  text-align: center;
+}
+.grp1 p {
+  font-family: "Arial";
+  color: rgb(72, 98, 89);
+  font-size: x-large;
+  text-align: center;
+}
+
+header nav a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 900;
+  display: flex;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+$primary:#76937e;
+$akashfont:'Arial';
+$txt-cent:center;
+
+
+.grp1{
+    h1{
+        color:$primary;
+        font-size: 80px;
+        text-align: $txt-cent;
+    }
+    p{
+        font-family: $akashfont;
+        color: rgb(72, 98, 89);
+        font-size: x-large;
+        text-align: center;
+    }
+}
+@mixin akash-style {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    display: flex;
+    
+   
+}
+header{
+    nav{
+        a{
+            @include akash-style($txt-cent)
+        }
+    }
+}

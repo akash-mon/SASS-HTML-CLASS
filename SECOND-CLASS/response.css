@@ -1,0 +1,193 @@
+header{
+    background: linear-gradient(120deg, rgb(166, 167, 167),rgb(44, 43, 43),black,black,rgb(50, 49, 49),rgb(171, 170, 170));
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 2px solid rgb(201, 195, 195);
+
+
+}
+header:hover{
+    font-size: large;
+    transition: 1s;
+    padding: 20px;
+}
+a{
+    color: white;
+    text-decoration:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    
+}
+nav{
+    padding-top: 15px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 80px;
+}
+body{
+    background:linear-gradient(100000deg,#83a5e4, #d7e3fc,#ccdbfd,#c1d3fe, #6c7ba0)
+}
+#firstimg{
+    width: 300px;
+    height: 300px;
+    
+    border: 10px solid white;
+    transition: 0.5s;
+
+}
+#firstimg:hover{
+    border: 20px solid rgb(193, 179, 179);
+    margin-bottom: 20px;
+    
+    
+}
+#scndimg{
+    width: 300px;
+    height: 300px;
+    border: 10px solid white;
+    transition: 0.5s;
+}
+#scndimg:hover{
+    border: 20px solid rgb(193, 179, 179);
+    margin-bottom: 20px;
+}
+#thirdimg{
+    width: 300px;
+    height: 300px;
+    border: 10px solid white;
+    transition: 0.5s;
+}
+#thirdimg:hover{
+    border: 20px solid rgb(193, 179, 179);
+    margin-bottom: 20px;
+}
+#forthimg{
+    width: 300px;
+    height: 300px;
+    border: 10px solid white;
+    transition: 0.5s;
+}
+#forthimg:hover{
+    border: 20px solid rgb(193, 179, 179);
+    margin-bottom: 20px;
+}
+.image{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 35px;
+    flex-direction: row;
+    column-gap: 50px ;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
+.home:hover{
+    background-color: #717275;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 1s;
+    
+}
+.profile:hover{
+    background-color: #717275;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 1s;
+}
+.linkdin:hover{
+    background-color: #717275;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 1s;
+}
+.git:hover{
+    background-color: #717275;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 1s;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.H{
+    font-size: 180px;
+    position: absolute;
+    bottom: 90px;
+    left: 150px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    
+  
+    
+
+}
+.H:hover{
+    color: gray;
+}
+.T{
+    font-size: 180px;
+    position: absolute;
+    bottom: 90px;
+    left: 520px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    padding: 0px;
+    border: 0px;
+   
+}
+ 
+
+.M{
+    font-size: 180px;
+    position: absolute;
+    bottom: 90px;
+    left: 870px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+.L{
+    font-size: 180px;
+    position: absolute;
+    bottom: 90px;
+    left: 1250px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+@media screen and (max-width:460px) {
+
+    header nav{
+        flex-direction: column;
+        row-gap: 10px;
+        border: 1px solid;
+        padding-top: 4px;
+        background-color: rgb(68, 66, 66);
+        
+    }
+
+
+    header{
+        padding-bottom: 100px;
+        
+
+    }
+    a{
+        padding-left: 10px;
+        border-bottom: 2px solid;
+        padding-top: 1px;
+        padding-bottom: 4px;
+    
+    }
+    .H{
+        top: 150px;
+    }
+    .T{
+        top: 150px;
+    }
+  
+
+    
+}
